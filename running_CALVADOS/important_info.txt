@@ -1,4 +1,4 @@
-In order to run CALVADOS simulations (Tesei et al., 2021), first you need to install the CALVADOS package following the instructions from 'https://github.com/KULL-Centre/CALVADOS'.
+In order to run CALVADOS simulations (Tesei et al., 2021), first you need to install the CALVADOS package following the instructions from 'https://github.com/KULL-Centre/CALVADOS'. Then check CALVADOS' example on 'single_MDP' proteins as fibril's simulations are based on these scripts.
 
 
 CALVADOS references:
