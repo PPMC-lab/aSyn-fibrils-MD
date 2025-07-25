@@ -1,0 +1,8 @@
+[INFO]       Logger:   Verbosity set to: 2 - [INFO]                                                (00:00:00)
+[WARNING]    runJob:   Working directory already exists (possibly overwriting previous results -ow 
+                       to prevent this behavior)                                                   (00:00:00)
+[INFO]       runJob:   Starting aggrescan3d job on: input.pdb with all chain(s) selected           (00:00:00)
+[INFO]       runJob:   Creating pdb object from: input.pdb                                         (00:00:00)
+[INFO]       FoldX:    Starting FoldX energy minimization                                          (00:00:01)
+[INFO]       Analysis: Starting Aggrescan4D on folded.pdb                                          (00:24:58)
+[INFO]       Main:     Simulation completed successfully.                                          (00:25:04)
