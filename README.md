@@ -46,5 +46,7 @@ For referencing research related to peptides and $\alpha$-synuclein, please cite
 
 - Santos J, Gracia P, Navarro S, Peña-Díaz S, Pujols J, Cremades N, Pallarès I, Ventura S. α-Helical peptidic scaffolds to target α-synuclein toxic species with nanomolar affinity. Nat Commun. 2021 Jun 18;12(1):3752. DOI: [10.1038/s41467-021-24039-2](https://www.nature.com/articles/s41467-021-24039-2).
 
+- Pintado-Grima C, Ventura S. The role of amphipathic and cationic helical peptides in Parkinson's disease. Protein Sci. 2025. DOI: [10.1002/pro.70020](https://onlinelibrary.wiley.com/doi/10.1002/pro.70020).
+
 - Santos J, Pallarès I, Ventura S. Is a cure for Parkinson’s disease hiding inside us? Trends Biochem Sci. 2022 Aug;47(8):641-644. DOI: [10.1016/j.tibs.2022.02.001](https://www.sciencedirect.com/science/article/pii/S0968000422000251).
 
