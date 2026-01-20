@@ -1,8 +1,8 @@
 # CALVADOS-fibrils
-Molecular dynamics simulations of natural peptides and alpha-synuclein fibrils using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to run CALVADOS with amyloid fibrils and peptides. 
+Molecular dynamics simulations of natural peptides and $\alpha$-synuclein fibrils using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to run CALVADOS with amyloid fibrils and peptides. 
 
 ## Documentation
-Topology and trajectory files of all simulations to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained from simulations of peptides and pathogenic alpha-synuclein fibrils using CALVADOS.
+Topology and trajectory files of all simulations to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained from simulations of peptides and pathogenic $\alpha$-synuclein fibrils using CALVADOS.
 
 
 ## References
@@ -20,9 +20,9 @@ For general usage of CALVADOS please refer to the original works/repositories of
 - S. von Bülow*, Y. Yasuda#, F. Cao#, T. K. Schulze#, A. I. Trolle#, A. S. Rauh#, R. Crehuet#, K. Lindorff-Larsen*, G. Tesei* (# equal contribution) Software package for simulations using the coarse-grained CALVADOS model, arXiv 2025. [https://doi.org/10.48550/arXiv.2504.10408](https://doi.org/10.48550/arXiv.2504.10408)
 
 
-### Peptides and alpha-synuclein
+### Peptides and $\alpha$-synuclein
 
-For referencing research related to peptides and alpha-synuclein, please cite: 
+For referencing research related to peptides and $\alpha$-synuclein, please cite: 
 
 - Pintado-Grima C, Bárcenas O, Iglesias V, Santos J, Manglano-Artuñedo Z, Pallarès I, Burdukiewicz M, Ventura S. aSynPEP-DB: a database of biogenic peptides for inhibiting α-synuclein aggregation. Database, Volume 2023, 2023. DOI: [10.1093/database/baad084](https://academic.oup.com/database/article/doi/10.1093/database/baad084/7451591?login=false).
 
