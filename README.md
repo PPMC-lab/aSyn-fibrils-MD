@@ -2,7 +2,7 @@
 Molecular dynamics simulations of natural peptides and $\alpha$-synuclein fibrils using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to run CALVADOS with amyloid fibrils and peptides. 
 
 ## Documentation
-Topology and trajectory files of all simulations to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained from simulations.
+Topology and trajectory files of modelled systems to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained for all simulations.
 
 ### File system directories
 
@@ -14,6 +14,9 @@ Topology and trajectory files of all simulations to be found in CORA.RDR reposit
 
 - Folder name: `./analysis`
   - Description: Python scripts to analyze trajectories and topology files.
+
+- Folder name: `./input`
+  - Description: original structures and sequences of peptides and fibrils.
 
 - Folder name: `./running_CALVADOS`
   - Description: input files to prepare and generate specific simulations of peptide-fibrils. Please refer to original [CALVADOS repository](https://github.com/KULL-Centre/CALVADOS) for general guidelines on running the model.
