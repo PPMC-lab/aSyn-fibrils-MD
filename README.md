@@ -1,5 +1,15 @@
 # CALVADOS-fibrils
-MD simulations of natural peptides and alpha-synuclein fibrils using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to run CALVADOS with amyloid fibrils and peptides. For general usage of CALVADOS please refer to the original works/repositories of the authors:
+Molecular dynamics simulations of natural peptides and alpha-synuclein fibrils using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to run CALVADOS with amyloid fibrils and peptides. 
+
+## Documentation
+Topology and trajectory files of all simulations to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained from simulations of peptides and pathogenic alpha-synuclein fibrils using CALVADOS.
+
+
+## References
+
+### CALVADOS model
+
+For general usage of CALVADOS please refer to the original works/repositories of the authors:
 
 - G. Tesei, T. K. Schulze, R. Crehuet, K. Lindorff-Larsen. Accurate model of liquid-liquid phase behavior of intrinsically disordered proteins from optimization of single-chain properties. PNAS (2021), 118(44):e2111696118. DOI: [10.1073/pnas.2111696118](https://www.pnas.org/doi/full/10.1073/pnas.2111696118).
 
@@ -10,5 +20,13 @@ MD simulations of natural peptides and alpha-synuclein fibrils using the [CALVAD
 - S. von Bülow*, Y. Yasuda#, F. Cao#, T. K. Schulze#, A. I. Trolle#, A. S. Rauh#, R. Crehuet#, K. Lindorff-Larsen*, G. Tesei* (# equal contribution) Software package for simulations using the coarse-grained CALVADOS model, arXiv 2025. [https://doi.org/10.48550/arXiv.2504.10408](https://doi.org/10.48550/arXiv.2504.10408)
 
 
-## Documentation
-Topology and trajectory files of production simulations to be found in CORA.RDR repository.
+### Peptides and alpha-synuclein
+
+For referencing research related to peptides and alpha-synuclein, please cite: 
+
+- Pintado-Grima C, Bárcenas O, Iglesias V, Santos J, Manglano-Artuñedo Z, Pallarès I, Burdukiewicz M, Ventura S. aSynPEP-DB: a database of biogenic peptides for inhibiting α-synuclein aggregation. Database, Volume 2023, 2023. DOI: [10.1093/database/baad084](https://academic.oup.com/database/article/doi/10.1093/database/baad084/7451591?login=false).
+
+- Santos J, Gracia P, Navarro S, Peña-Díaz S, Pujols J, Cremades N, Pallarès I, Ventura S. α-Helical peptidic scaffolds to target α-synuclein toxic species with nanomolar affinity. Nat Commun. 2021 Jun 18;12(1):3752. DOI: [10.1038/s41467-021-24039-2](https://www.nature.com/articles/s41467-021-24039-2).
+
+- Santos J, Pallarès I, Ventura S. Is a cure for Parkinson’s disease hiding inside us? Trends Biochem Sci. 2022 Aug;47(8):641-644. DOI: [10.1016/j.tibs.2022.02.001](https://www.sciencedirect.com/science/article/pii/S0968000422000251).
+
