@@ -55,7 +55,7 @@ def barplot():
 
 	plt.xlabel("Peptide ID")
 	plt.ylabel("Average contacts")
-	plt.savefig("./barplot/8a9l_2_tot_barplot_peptides_total_ID_pacap.png", dpi=300)
+	plt.savefig("./barplot/8a9l_2_tot_barplot_peptides_total_ID_ll37.png", dpi=300)
 
 	#plt.show()
 
@@ -68,7 +68,7 @@ def violin():
 	g.set_xticklabels(['With peptide','Withoutout peptide'])
 	plt.xlabel("Simulation")
 	plt.ylabel("Rg aSyn[100:140]")
-	#plt.title("Avearge Rg pacap")
+	#plt.title("Avearge Rg ll37")
 
 	from scipy.stats import mannwhitneyu, normaltest
 	from statannotations.Annotator import Annotator

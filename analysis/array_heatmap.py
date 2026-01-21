@@ -15,7 +15,7 @@ data={}
 
 #Load independent .npy chunks
 for i in range(1000, 10000, 500):
-	data[i]=np.load("./data_chunk_pacap/8a9l_pacap_1000ns_cubic_contact_map.npy_chunk_"+str(i)+".npy")
+	data[i]=np.load("./data_chunk_ll37/8a9l_ll37_1000ns_cubic_contact_map.npy_chunk_"+str(i)+".npy")
 
 #Generate final array (either sum or append)
 #data_append=np.concatenate((data[1000], data[2000],data[3000],data[4000],data[5000],data[6000],data[7000],data[8000],data[9000]),axis = 0)
@@ -32,7 +32,7 @@ def array_2d_cmap(data):
 	im=plt.imshow(data, cmap='hot', origin='lower')
 	#ax.set_xticklabels(custom_tick_xlabels)
 	plt.xlabel("# res aSyn")
-	plt.ylabel("# res PACAP")
+	plt.ylabel("# res LL37")
 
 	divider = make_axes_locatable(ax)
 	cax = divider.append_axes("right", size="5%", pad=0.1)
@@ -50,7 +50,7 @@ def array_2d_cmap(data):
 	plt.tight_layout()
 
 	#plt.show()
-	plt.savefig(f'avg_contact_PACAP_8a9l.png', dpi=300)
+	plt.savefig(f'avg_contact_ll37_8a9l.png', dpi=300)
 
 
 def array_2d_peptide_contacts(data):
@@ -61,7 +61,7 @@ def array_2d_peptide_contacts(data):
 	#for avg in averages_peptides:
 	#		print(avg.round(2))
 	
-	#np.save(f'./data_chunk_pacap/tot_contacts_each_pacap_disordered.npy',averages_peptides)
+	#np.save(f'./data_chunk_ll37/tot_contacts_each_ll37_disordered.npy',averages_peptides)
 	#sys.exit()
 	fig, ax = plt.subplots()
 	
@@ -89,7 +89,7 @@ def array_2d_peptide_contacts(data):
 	ax.set_xticklabels(custom_tick_xlabels)
 	plt.xlabel("time (ns)")
 	plt.ylabel("# n LL-37")
-	#plt.title("tot_contacts_6xyo_pacap_cubic_1000ns")
+	#plt.title("tot_contacts_6xyo_ll37_cubic_1000ns")
 	plt.tight_layout()
 	plt.savefig(f'tot_contacts_LL37_8a9l_discrete_legend.png', dpi=300)
 	#plt.show()
@@ -121,7 +121,7 @@ def array_2d_peptide_asyn(data):
 	#what  to show
 	plt.xlabel("# aSyn chain")
 	plt.ylabel("Avg contacts with any LL-37")
-	#plt.title("avg_contacts_8a9l_pacap[43]_cubic_1000ns")
+	#plt.title("avg_contacts_8a9l_ll37[43]_cubic_1000ns")
 	plt.tight_layout()
 	plt.savefig(f'avg_contacts_8a9l_LL37_cubic_1000ns.png', dpi=300)
 	#plt.show()
@@ -132,8 +132,8 @@ def array_1d(data):
 	#what  to show
 	plt.xlabel("# asyn chain")
 	plt.ylabel("# avg contacts ")
-	plt.title("avg_tot_contacts_asyn_pacap_1000ns")
-	#plt.savefig(f'avg_tot_contacts_asyn_pacap_1000ns.png', dpi=300)
+	plt.title("avg_tot_contacts_asyn_ll37_1000ns")
+	#plt.savefig(f'avg_tot_contacts_asyn_ll37_1000ns.png', dpi=300)
 	plt.show()
 
 #Plot type

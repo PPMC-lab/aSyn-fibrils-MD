@@ -28,7 +28,7 @@ traj = md.load_dcd('new_traj_pacap_alone.dcd','new_top_pacap_alone.pdb')[1000:]
 
 df_residues = pd.read_csv(f'../input/residues_CALVADOS3.csv',index_col=0)
 fasta="LGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA" #C-t
-fasta_pep="HSDGIFTDSYSRYRKQMAVKKYLAAVLGKRYKQRVKNK" #pacap
+fasta_pep=" LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES" #LL37
 
 masses = df_residues.loc[list(fasta_pep),'MW'].values
 masses[0] += 2
@@ -79,4 +79,4 @@ for _ in range(n_chains): #calculate Rg for all aSyn chains in fiber
 
 print(rg_asyn_chains)
 
-np.save(f'./data_rg/rg_pacap_alone.npy',rg_asyn_chains)
+np.save(f'./data_rg/rg_ll37_alone.npy',rg_asyn_chains)
