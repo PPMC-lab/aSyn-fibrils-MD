@@ -21,6 +21,9 @@ Topology and trajectory files of modelled systems to be found in CORA.RDR reposi
 - Folder name: `./contact_arrays`
   - Description: data arrays for total contacts of simulated systems (.npy).
 
+- Folder name: `./controls`
+  - Description: peptide contacts for control simulation.
+
 - Folder name: `./running_CALVADOS`
   - Description: input files to prepare and generate specific simulations of peptide-fibrils. Please refer to original [CALVADOS repository](https://github.com/KULL-Centre/CALVADOS) for general guidelines on running the model.
 
