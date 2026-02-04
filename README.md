@@ -1,5 +1,5 @@
-# CALVADOS-fibrils
-Molecular dynamics simulations of natural peptides and $\alpha$-synuclein fibrils using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to run CALVADOS with amyloid fibrils and peptides. 
+# aSyn-fibrils-MD
+Molecular dynamics simulations of $\alpha$-synuclein fibrils and natural peptides using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to run CALVADOS with amyloid fibrils and peptides. 
 
 ## Documentation
 Topology and trajectory files of modelled systems to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained for all simulations.
