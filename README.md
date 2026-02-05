@@ -1,6 +1,6 @@
 # aSyn-fibrils-MD
 Molecular dynamics simulations of $\alpha$-synuclein fibrils and natural peptides using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to reproduce the analyses of the study "Full-length molecular models of brain-derived α-synuclein fibrils enable
-mechanistic validation of therapeutic peptide binders by coarse-grained simulations" (submitted). 
+mechanistic validation of therapeutic peptide binders by coarse-grained simulations" (preparing submission). 
 
 ## Documentation
 Topology and trajectory files of modelled systems to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained for all simulations.
