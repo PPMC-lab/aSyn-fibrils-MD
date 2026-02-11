@@ -3,7 +3,7 @@ Molecular dynamics simulations of $\alpha$-synuclein fibrils and natural peptide
 mechanistic validation of therapeutic peptide binders by coarse-grained simulations" (preparing submission). 
 
 ## Documentation
-Topology and trajectory files of modelled systems to be found in CORA.RDR repository. CORA repository contains both topology (.pdb) and trajectory (.dcd) files obtained for all simulations.
+Topology and trajectory files of modelled systems can be found in [https://doi.org/10.34810/data2621](https://doi.org/10.34810/data2621). The repository contains both topology (.pdb) and trajectory (.dcd) files obtained for all simulations.
 
 ### File system directories
 
