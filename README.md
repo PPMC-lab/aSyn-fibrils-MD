@@ -1,6 +1,5 @@
 # aSyn-fibrils-MD
-Molecular dynamics simulations of $\alpha$-synuclein fibrils and natural peptides using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021). This repository contains specific data and coding scripts to reproduce the analyses of the study "Full-length molecular models of brain-derived α-synuclein fibrils enable
-mechanistic validation of therapeutic peptide binders by coarse-grained simulations" (preparing submission). 
+This repository contains specific data and coding scripts to reproduce the analyses of the study *"Full-length brain-derived $\alpha$-synuclein fibril models reveal fuzzy-coat control of peptide recognition"* (Pintado-Grima et al., 2026): [doi.org/10.1002/pro.70782](https://onlinelibrary.wiley.com/doi/10.1002/pro.70782). Molecular dynamics simulations of $\alpha$-synuclein fibrils were performed using the [CALVADOS model](https://github.com/KULL-Centre/CALVADOS) (Tesei et al., 2021).
 
 ## Documentation
 Topology and trajectory files of modelled systems can be found in [https://doi.org/10.34810/data2621](https://doi.org/10.34810/data2621). The repository contains both topology (.pdb) and trajectory (.dcd) files obtained for all simulations.
